@@ -6,6 +6,5 @@ public class CASDemo {
         atomicInteger.compareAndSet(5, 6);
         atomicInteger.compareAndSet(5, 2020);
         System.out.println(atomicInteger.get());
-        atomicInteger.getAndIncrement();
     }
 }
